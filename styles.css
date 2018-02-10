@@ -1,0 +1,25 @@
+.container > p {
+  font-size: 4em;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+div > div {
+  display: flex;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  background-color: red;
+  color: #fff;
+  transition: background-color 1s;
+}
+
+div > div:hover {
+  background-color: darkred;
+}
